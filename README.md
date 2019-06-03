@@ -15,3 +15,16 @@ pip install pyOpenSSL
 
 pip install scrapy
 ```
+
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
+
+pip install Twisted-19.2.0-cp37-cp37m-win32.whl
+
+## Make project
+
+scrapy startproject xskt
+
+
+scrapy genspider xskt1 xskt.com.vn
+
