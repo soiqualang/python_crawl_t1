@@ -5,6 +5,8 @@
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/items.html
 
+#https://viblo.asia/p/crawl-du-lieu-trang-web-voi-scrapy-E375zWr1KGW
+
 import scrapy
 
 

@@ -33,6 +33,8 @@ scrapy genspider xskt1 xskt.com.vn
 
 # project 2
 
+https://viblo.asia/p/crawl-du-lieu-trang-web-voi-scrapy-E375zWr1KGW
+
 scrapy startproject crawler
 
 file json:
