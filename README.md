@@ -28,3 +28,19 @@ scrapy startproject xskt
 
 scrapy genspider xskt1 xskt.com.vn
 
+
+---
+
+# project 2
+
+scrapy startproject crawler
+
+file json:
+scrapy crawl crawler -o comments.json
+hoặc file csv:
+scrapy crawl crawler -o comments.csv
+
+## Fix Error
+
+No module named 'win32api'
+>pip install pypiwin32

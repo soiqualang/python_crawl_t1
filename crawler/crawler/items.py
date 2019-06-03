@@ -11,4 +11,8 @@ import scrapy
 class CrawlerItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    #pass
+
+    User = scrapy.Field()
+    Comment = scrapy.Field()
+    Time = scrapy.Field()
