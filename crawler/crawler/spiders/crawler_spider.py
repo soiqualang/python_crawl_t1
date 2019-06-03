@@ -10,6 +10,7 @@ class CrawlerSpider(Spider):
     ]
 
     def parse(self, response):
+        #//*[@id="comment"]/ul
         questions = Selector(response).xpath('//ul[@class="listcomment"]/li')
 
         for question in questions:
